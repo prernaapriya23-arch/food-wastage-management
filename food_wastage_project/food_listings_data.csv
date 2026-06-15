@@ -1,0 +1,201 @@
+Food_ID,Food_Name,Quantity,Expiry_Date,Provider_ID,Provider_Type,Location,Food_Type,Meal_Type
+1,Bread,7,2024-01-12,49,Hotel,Surat,Vegan,Breakfast
+2,Milk,134,2024-01-04,35,Supermarket,Bangalore,Non-Vegetarian,Breakfast
+3,Sandwiches,77,2024-01-30,16,Grocery Store,Ahmedabad,Vegan,Dinner
+4,Poha,7,2024-01-21,42,Catering Service,Jaipur,Non-Vegetarian,Breakfast
+5,Roti,34,2024-01-30,9,Restaurant,Jaipur,Vegetarian,Dinner
+6,Milk,188,2024-01-11,39,Supermarket,Chennai,Vegan,Dinner
+7,Roti,18,2024-01-18,32,Restaurant,Kolkata,Non-Vegetarian,Breakfast
+8,Fruits,168,2024-01-02,22,Supermarket,Bangalore,Vegan,Snacks
+9,Salad,148,2024-01-19,46,Restaurant,Delhi,Vegetarian,Lunch
+10,Sandwiches,154,2024-01-19,3,Bakery,Bangalore,Non-Vegetarian,Lunch
+11,Sandwiches,15,2024-01-03,20,Supermarket,Chennai,Vegan,Lunch
+12,Sandwiches,148,2024-01-23,7,Hotel,Surat,Vegan,Lunch
+13,Pulses,50,2024-01-31,16,Hotel,Mumbai,Vegetarian,Dinner
+14,Eggs,73,2024-01-27,27,Grocery Store,Delhi,Non-Vegetarian,Breakfast
+15,Eggs,56,2024-01-29,31,Hotel,Pune,Non-Vegetarian,Lunch
+16,Milk,107,2024-01-09,2,Supermarket,Hyderabad,Vegetarian,Dinner
+17,Poha,107,2024-01-13,42,Catering Service,Jaipur,Non-Vegetarian,Breakfast
+18,Pulses,153,2024-01-05,17,Supermarket,Mumbai,Vegetarian,Snacks
+19,Pasta,116,2024-01-13,47,Bakery,Jaipur,Vegetarian,Snacks
+20,Milk,70,2024-01-30,37,Restaurant,Kolkata,Vegetarian,Lunch
+21,Bread,175,2024-01-13,28,Supermarket,Surat,Non-Vegetarian,Breakfast
+22,Poha,84,2024-01-25,20,Catering Service,Kolkata,Non-Vegetarian,Snacks
+23,Upma,37,2024-01-24,19,Grocery Store,Kolkata,Vegan,Snacks
+24,Pulses,162,2024-01-23,48,Bakery,Hyderabad,Non-Vegetarian,Breakfast
+25,Milk,115,2024-01-11,19,Bakery,Surat,Vegan,Dinner
+26,Idli,177,2024-01-16,29,Grocery Store,Jaipur,Non-Vegetarian,Lunch
+27,Biryani,136,2024-01-23,6,Catering Service,Surat,Non-Vegetarian,Breakfast
+28,Eggs,177,2024-01-28,49,Supermarket,Chennai,Vegetarian,Lunch
+29,Eggs,126,2024-01-02,3,Bakery,Delhi,Non-Vegetarian,Snacks
+30,Khichdi,54,2024-01-30,41,Catering Service,Kolkata,Non-Vegetarian,Snacks
+31,Rice,197,2024-01-09,10,Restaurant,Kolkata,Vegetarian,Lunch
+32,Poha,123,2024-01-27,45,Restaurant,Jaipur,Vegetarian,Breakfast
+33,Idli,175,2024-01-16,9,Bakery,Jaipur,Vegan,Dinner
+34,Paneer Curry,189,2024-01-26,29,Bakery,Kolkata,Vegan,Snacks
+35,Dosa,120,2024-01-30,11,Supermarket,Chennai,Vegan,Dinner
+36,Poha,129,2024-01-26,50,Catering Service,Chennai,Non-Vegetarian,Snacks
+37,Biryani,65,2024-01-04,46,Supermarket,Pune,Non-Vegetarian,Breakfast
+38,Eggs,103,2024-01-06,10,Catering Service,Bangalore,Vegan,Lunch
+39,Salad,89,2024-01-04,27,Bakery,Ahmedabad,Non-Vegetarian,Breakfast
+40,Soup,154,2024-01-08,27,Catering Service,Mumbai,Vegan,Snacks
+41,Sandwiches,81,2024-01-17,1,Hotel,Kolkata,Vegan,Lunch
+42,Roti,116,2024-01-17,15,Hotel,Mumbai,Non-Vegetarian,Dinner
+43,Soup,190,2024-01-23,44,Grocery Store,Ahmedabad,Vegetarian,Breakfast
+44,Khichdi,149,2024-01-31,26,Catering Service,Mumbai,Vegetarian,Snacks
+45,Pulses,17,2024-01-06,30,Supermarket,Kolkata,Non-Vegetarian,Lunch
+46,Pasta,199,2024-01-16,21,Hotel,Hyderabad,Non-Vegetarian,Dinner
+47,Dosa,9,2024-01-28,6,Catering Service,Jaipur,Vegetarian,Dinner
+48,Bread,171,2024-01-09,42,Restaurant,Mumbai,Vegetarian,Lunch
+49,Paneer Curry,44,2024-01-28,2,Grocery Store,Bangalore,Non-Vegetarian,Breakfast
+50,Idli,184,2024-01-20,14,Supermarket,Pune,Vegetarian,Breakfast
+51,Biryani,32,2024-01-26,11,Bakery,Mumbai,Non-Vegetarian,Snacks
+52,Milk,24,2024-01-14,46,Bakery,Chennai,Vegetarian,Dinner
+53,Paneer Curry,35,2024-01-29,44,Bakery,Mumbai,Non-Vegetarian,Snacks
+54,Bread,134,2024-01-23,24,Catering Service,Pune,Vegetarian,Snacks
+55,Vegetables,115,2024-01-28,32,Supermarket,Ahmedabad,Vegan,Lunch
+56,Poha,171,2024-01-15,12,Supermarket,Surat,Vegan,Snacks
+57,Khichdi,73,2024-01-16,28,Supermarket,Chennai,Vegetarian,Dinner
+58,Eggs,197,2024-01-30,29,Hotel,Surat,Vegan,Snacks
+59,Dosa,88,2024-01-12,2,Grocery Store,Ahmedabad,Vegetarian,Dinner
+60,Pasta,76,2024-01-27,17,Bakery,Hyderabad,Vegan,Breakfast
+61,Bread,66,2024-01-18,13,Catering Service,Kolkata,Non-Vegetarian,Lunch
+62,Dosa,119,2024-01-24,31,Restaurant,Delhi,Non-Vegetarian,Lunch
+63,Eggs,83,2024-01-14,45,Catering Service,Surat,Non-Vegetarian,Snacks
+64,Sandwiches,113,2024-01-19,34,Catering Service,Jaipur,Non-Vegetarian,Dinner
+65,Roti,83,2024-01-24,30,Supermarket,Chennai,Vegetarian,Lunch
+66,Upma,200,2024-01-12,8,Catering Service,Bangalore,Vegetarian,Lunch
+67,Roti,190,2024-01-25,31,Bakery,Jaipur,Vegan,Dinner
+68,Biryani,63,2024-01-05,13,Supermarket,Bangalore,Non-Vegetarian,Breakfast
+69,Fruits,75,2024-01-24,35,Restaurant,Mumbai,Vegan,Dinner
+70,Dosa,31,2024-01-24,9,Restaurant,Surat,Non-Vegetarian,Snacks
+71,Pasta,52,2024-01-17,29,Restaurant,Hyderabad,Non-Vegetarian,Breakfast
+72,Soup,130,2024-01-28,5,Restaurant,Surat,Vegan,Breakfast
+73,Khichdi,82,2024-01-06,10,Restaurant,Chennai,Vegetarian,Snacks
+74,Paneer Curry,62,2024-01-21,39,Bakery,Kolkata,Non-Vegetarian,Snacks
+75,Salad,83,2024-01-11,38,Bakery,Surat,Vegetarian,Breakfast
+76,Milk,72,2024-01-26,14,Catering Service,Delhi,Vegetarian,Lunch
+77,Bread,45,2024-01-07,36,Restaurant,Kolkata,Non-Vegetarian,Snacks
+78,Eggs,78,2024-01-11,3,Catering Service,Hyderabad,Vegan,Snacks
+79,Eggs,72,2024-01-04,44,Catering Service,Surat,Vegan,Lunch
+80,Upma,62,2024-01-15,8,Catering Service,Bangalore,Non-Vegetarian,Lunch
+81,Pulses,83,2024-01-04,4,Bakery,Surat,Non-Vegetarian,Snacks
+82,Biryani,184,2024-01-05,30,Hotel,Hyderabad,Vegan,Snacks
+83,Paneer Curry,15,2024-01-16,6,Hotel,Pune,Vegan,Dinner
+84,Eggs,177,2024-01-02,6,Bakery,Surat,Vegetarian,Dinner
+85,Pulses,125,2024-01-20,3,Bakery,Ahmedabad,Non-Vegetarian,Lunch
+86,Dosa,28,2024-01-20,28,Hotel,Pune,Non-Vegetarian,Dinner
+87,Vegetables,46,2024-01-12,43,Supermarket,Kolkata,Vegan,Snacks
+88,Soup,199,2024-01-11,43,Bakery,Mumbai,Non-Vegetarian,Breakfast
+89,Pasta,34,2024-01-12,17,Hotel,Jaipur,Vegetarian,Snacks
+90,Milk,137,2024-01-15,4,Supermarket,Surat,Non-Vegetarian,Snacks
+91,Milk,73,2024-01-26,4,Bakery,Bangalore,Non-Vegetarian,Snacks
+92,Dosa,36,2024-01-30,45,Restaurant,Surat,Vegetarian,Lunch
+93,Rice,146,2024-01-11,36,Hotel,Delhi,Vegetarian,Breakfast
+94,Fruits,132,2024-01-16,8,Catering Service,Hyderabad,Vegan,Dinner
+95,Dosa,67,2024-01-15,31,Hotel,Jaipur,Vegetarian,Snacks
+96,Poha,196,2024-01-08,39,Grocery Store,Delhi,Non-Vegetarian,Snacks
+97,Roti,5,2024-01-12,33,Supermarket,Hyderabad,Vegan,Snacks
+98,Idli,142,2024-01-29,10,Hotel,Pune,Non-Vegetarian,Snacks
+99,Milk,183,2024-01-16,21,Grocery Store,Surat,Non-Vegetarian,Lunch
+100,Salad,16,2024-01-29,50,Supermarket,Ahmedabad,Vegan,Snacks
+101,Fruits,131,2024-01-14,43,Restaurant,Bangalore,Vegan,Dinner
+102,Idli,30,2024-01-29,7,Bakery,Ahmedabad,Vegetarian,Lunch
+103,Fruits,24,2024-01-15,42,Hotel,Hyderabad,Non-Vegetarian,Snacks
+104,Pasta,177,2024-01-22,6,Bakery,Kolkata,Non-Vegetarian,Snacks
+105,Dal,163,2024-01-29,35,Restaurant,Chennai,Vegan,Dinner
+106,Bread,116,2024-01-09,48,Restaurant,Delhi,Non-Vegetarian,Lunch
+107,Rice,16,2024-01-24,20,Supermarket,Mumbai,Non-Vegetarian,Dinner
+108,Fruits,67,2024-01-13,28,Bakery,Kolkata,Vegan,Lunch
+109,Bread,161,2024-01-07,12,Hotel,Surat,Vegan,Lunch
+110,Fruits,64,2024-01-17,38,Hotel,Hyderabad,Non-Vegetarian,Dinner
+111,Idli,78,2024-01-23,1,Catering Service,Jaipur,Vegetarian,Breakfast
+112,Khichdi,81,2024-01-16,23,Catering Service,Kolkata,Vegan,Dinner
+113,Milk,103,2024-01-16,20,Hotel,Delhi,Vegetarian,Snacks
+114,Khichdi,80,2024-01-20,23,Catering Service,Hyderabad,Vegetarian,Snacks
+115,Khichdi,180,2024-01-10,1,Catering Service,Mumbai,Vegan,Snacks
+116,Eggs,160,2024-01-28,19,Supermarket,Chennai,Vegan,Lunch
+117,Fruits,165,2024-01-21,17,Restaurant,Mumbai,Non-Vegetarian,Snacks
+118,Sandwiches,192,2024-01-03,38,Grocery Store,Delhi,Non-Vegetarian,Dinner
+119,Pulses,56,2024-01-25,27,Grocery Store,Jaipur,Non-Vegetarian,Dinner
+120,Roti,128,2024-01-28,11,Supermarket,Pune,Vegetarian,Snacks
+121,Eggs,178,2024-01-04,10,Catering Service,Kolkata,Vegan,Dinner
+122,Rice,72,2024-01-04,26,Bakery,Delhi,Non-Vegetarian,Dinner
+123,Roti,154,2024-01-23,48,Hotel,Pune,Vegetarian,Lunch
+124,Paneer Curry,148,2024-01-17,2,Supermarket,Surat,Vegetarian,Breakfast
+125,Biryani,171,2024-01-22,30,Hotel,Delhi,Vegetarian,Breakfast
+126,Dosa,34,2024-01-03,20,Restaurant,Chennai,Vegan,Lunch
+127,Sandwiches,176,2024-01-14,30,Catering Service,Jaipur,Non-Vegetarian,Lunch
+128,Vegetables,130,2024-01-30,27,Bakery,Kolkata,Non-Vegetarian,Breakfast
+129,Milk,118,2024-01-24,24,Hotel,Chennai,Non-Vegetarian,Breakfast
+130,Upma,170,2024-01-23,24,Supermarket,Mumbai,Non-Vegetarian,Dinner
+131,Idli,28,2024-01-08,8,Catering Service,Chennai,Vegan,Breakfast
+132,Eggs,37,2024-01-03,22,Bakery,Chennai,Vegetarian,Lunch
+133,Eggs,89,2024-01-20,14,Grocery Store,Surat,Vegetarian,Dinner
+134,Fruits,143,2024-01-29,10,Supermarket,Bangalore,Vegetarian,Breakfast
+135,Sandwiches,65,2024-01-06,1,Bakery,Pune,Vegetarian,Lunch
+136,Fruits,194,2024-01-10,4,Hotel,Jaipur,Vegetarian,Breakfast
+137,Sandwiches,136,2024-01-17,29,Bakery,Delhi,Non-Vegetarian,Lunch
+138,Poha,82,2024-01-21,3,Hotel,Mumbai,Vegetarian,Snacks
+139,Salad,180,2024-01-29,26,Restaurant,Ahmedabad,Vegan,Snacks
+140,Pasta,160,2024-01-04,6,Grocery Store,Delhi,Vegetarian,Dinner
+141,Khichdi,145,2024-01-21,41,Catering Service,Pune,Non-Vegetarian,Dinner
+142,Paneer Curry,115,2024-01-16,33,Restaurant,Delhi,Vegan,Lunch
+143,Eggs,110,2024-01-15,29,Supermarket,Ahmedabad,Non-Vegetarian,Snacks
+144,Pasta,114,2024-01-25,7,Supermarket,Hyderabad,Non-Vegetarian,Lunch
+145,Bread,28,2024-01-23,31,Restaurant,Delhi,Non-Vegetarian,Breakfast
+146,Sandwiches,38,2024-01-25,48,Bakery,Mumbai,Vegan,Dinner
+147,Salad,95,2024-01-23,8,Catering Service,Kolkata,Vegan,Breakfast
+148,Biryani,95,2024-01-11,39,Restaurant,Surat,Vegan,Lunch
+149,Dosa,62,2024-01-06,43,Restaurant,Pune,Vegan,Dinner
+150,Roti,151,2024-01-05,49,Grocery Store,Kolkata,Vegan,Breakfast
+151,Roti,12,2024-01-21,43,Grocery Store,Hyderabad,Vegan,Dinner
+152,Sandwiches,6,2024-01-31,22,Grocery Store,Bangalore,Vegan,Snacks
+153,Rice,28,2024-01-04,10,Catering Service,Jaipur,Vegetarian,Snacks
+154,Pasta,45,2024-01-15,30,Supermarket,Hyderabad,Vegan,Dinner
+155,Paneer Curry,26,2024-01-26,37,Restaurant,Bangalore,Vegetarian,Breakfast
+156,Roti,118,2024-01-23,6,Catering Service,Kolkata,Non-Vegetarian,Snacks
+157,Milk,198,2024-01-15,18,Bakery,Delhi,Non-Vegetarian,Snacks
+158,Khichdi,129,2024-01-05,19,Bakery,Hyderabad,Vegetarian,Lunch
+159,Dal,6,2024-01-14,39,Grocery Store,Hyderabad,Vegetarian,Lunch
+160,Biryani,88,2024-01-26,17,Restaurant,Mumbai,Non-Vegetarian,Snacks
+161,Soup,141,2024-01-07,9,Catering Service,Chennai,Vegan,Dinner
+162,Dal,116,2024-01-04,26,Restaurant,Ahmedabad,Vegetarian,Dinner
+163,Khichdi,108,2024-01-20,28,Catering Service,Kolkata,Non-Vegetarian,Breakfast
+164,Pasta,48,2024-01-14,2,Bakery,Ahmedabad,Vegan,Dinner
+165,Vegetables,67,2024-01-04,28,Hotel,Surat,Non-Vegetarian,Breakfast
+166,Pasta,61,2024-01-14,20,Supermarket,Bangalore,Vegetarian,Breakfast
+167,Milk,94,2024-01-18,33,Supermarket,Bangalore,Vegetarian,Breakfast
+168,Milk,49,2024-01-06,17,Bakery,Bangalore,Vegan,Breakfast
+169,Dosa,123,2024-01-07,50,Bakery,Surat,Non-Vegetarian,Dinner
+170,Pasta,43,2024-01-29,41,Hotel,Delhi,Non-Vegetarian,Snacks
+171,Roti,156,2024-01-22,20,Restaurant,Pune,Vegan,Breakfast
+172,Idli,14,2024-01-11,30,Restaurant,Pune,Non-Vegetarian,Breakfast
+173,Paneer Curry,157,2024-01-22,6,Bakery,Kolkata,Non-Vegetarian,Breakfast
+174,Milk,87,2024-01-16,37,Bakery,Ahmedabad,Vegan,Lunch
+175,Vegetables,92,2024-01-03,29,Catering Service,Delhi,Vegan,Lunch
+176,Idli,117,2024-01-03,16,Bakery,Jaipur,Vegan,Lunch
+177,Biryani,104,2024-01-13,24,Hotel,Pune,Vegan,Breakfast
+178,Pasta,21,2024-01-27,41,Supermarket,Delhi,Vegan,Snacks
+179,Paneer Curry,43,2024-01-11,17,Supermarket,Delhi,Vegan,Lunch
+180,Biryani,172,2024-01-31,23,Catering Service,Kolkata,Vegetarian,Breakfast
+181,Soup,169,2024-01-11,36,Supermarket,Bangalore,Vegan,Breakfast
+182,Salad,135,2024-01-22,43,Supermarket,Mumbai,Non-Vegetarian,Dinner
+183,Pasta,129,2024-01-07,14,Grocery Store,Chennai,Vegetarian,Lunch
+184,Vegetables,134,2024-01-04,19,Bakery,Jaipur,Vegetarian,Dinner
+185,Paneer Curry,38,2024-01-30,50,Bakery,Kolkata,Vegetarian,Lunch
+186,Paneer Curry,47,2024-01-07,45,Catering Service,Ahmedabad,Vegetarian,Snacks
+187,Eggs,118,2024-01-13,44,Bakery,Hyderabad,Vegan,Snacks
+188,Eggs,84,2024-01-09,35,Hotel,Chennai,Non-Vegetarian,Snacks
+189,Biryani,102,2024-01-16,50,Bakery,Jaipur,Non-Vegetarian,Lunch
+190,Paneer Curry,40,2024-01-28,13,Supermarket,Mumbai,Vegan,Snacks
+191,Upma,31,2024-01-29,24,Catering Service,Jaipur,Vegetarian,Dinner
+192,Pulses,74,2024-01-04,49,Hotel,Jaipur,Vegetarian,Snacks
+193,Idli,94,2024-01-04,15,Restaurant,Kolkata,Vegetarian,Snacks
+194,Eggs,103,2024-01-18,24,Restaurant,Pune,Vegetarian,Breakfast
+195,Pasta,42,2024-01-12,7,Grocery Store,Mumbai,Non-Vegetarian,Snacks
+196,Dosa,119,2024-01-24,9,Bakery,Mumbai,Vegetarian,Breakfast
+197,Fruits,145,2024-01-10,14,Catering Service,Surat,Vegan,Snacks
+198,Biryani,65,2024-01-05,50,Supermarket,Delhi,Vegetarian,Lunch
+199,Paneer Curry,122,2024-01-15,41,Restaurant,Delhi,Non-Vegetarian,Breakfast
+200,Khichdi,66,2024-01-22,33,Catering Service,Bangalore,Non-Vegetarian,Snacks
