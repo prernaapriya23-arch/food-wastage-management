@@ -78,7 +78,35 @@ import os
 
 # ── Paths (work regardless of working directory) ────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "food_wastage.db")
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH  = os.path.join(BASE_DIR, "food_wastage.db")
+
+def _build_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.executescript("""
+    CREATE TABLE IF NOT EXISTS providers (Provider_ID INTEGER PRIMARY KEY, Name TEXT, Type TEXT, Address TEXT, City TEXT, Contact TEXT);
+    CREATE TABLE IF NOT EXISTS receivers (Receiver_ID INTEGER PRIMARY KEY, Name TEXT, Type TEXT, City TEXT, Contact TEXT);
+    CREATE TABLE IF NOT EXISTS food_listings (Food_ID INTEGER PRIMARY KEY, Food_Name TEXT, Quantity INTEGER, Expiry_Date TEXT, Provider_ID INTEGER, Provider_Type TEXT, Location TEXT, Food_Type TEXT, Meal_Type TEXT);
+    CREATE TABLE IF NOT EXISTS claims (Claim_ID INTEGER PRIMARY KEY, Food_ID INTEGER, Receiver_ID INTEGER, Status TEXT, Timestamp TEXT);
+    """)
+    conn.commit()
+    for tbl, csv in [("providers","providers_data.csv"),("receivers","receivers_data.csv"),("food_listings","food_listings_data.csv"),("claims","claims_data.csv")]:
+        p = os.path.join(BASE_DIR, csv)
+        if os.path.exists(p):
+            pd.read_csv(p).to_sql(tbl, conn, if_exists="replace", index=False)
+    conn.close()
+
+def _db_ok():
+    if not os.path.exists(DB_PATH): return False
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        ok = all(conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]>0 for t in ["providers","receivers","food_listings","claims"])
+        conn.close()
+        return ok
+    except: return False
+
+if not _db_ok(): _build_db()
 
 # ── DB helpers ─────────────────────────────────────────────────────────────────
 def _build_database():
